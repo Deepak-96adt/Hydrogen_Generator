@@ -1,6 +1,6 @@
 import React from 'react';
 import back from '../../../assets/icon5.png';
-import No_img from '../../../assets/No-Image-Found.png';
+import H2_Intro_img from '../../../assets/intro of h2.jpg';
 import Header2 from '../../../components/Header2';
 import { useNavigate } from "react-router-dom";
 
@@ -24,7 +24,7 @@ const Intro_To_Hydrogen_Theory = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-5">
           <img 
-            src={No_img}
+            src={H2_Intro_img}
             alt="PEM Electrolysis" 
             className="mx-auto shadow-lg rounded-2xl" 
           />

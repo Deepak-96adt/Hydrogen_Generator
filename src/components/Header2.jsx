@@ -27,9 +27,9 @@ const Header2 = () => {
   return (
     <header className="border-b relative border-neutral-900 h-20 left-0 w-full z-[100] bg-white">
       <div className="w-[95%] max-w-[90%] mx-auto flex justify-between items-center h-full">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="logo" className="h-[50px]" />
-        </a>
+        </Link>
         <div className="flex items-center gap-2 sm:gap-4">
           <button 
             onClick={() => setIsOpen(!isOpen)} 
